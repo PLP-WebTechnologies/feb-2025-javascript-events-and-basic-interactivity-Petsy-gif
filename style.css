@@ -1,0 +1,69 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Button styling */
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+/* Hover effect on button */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Image styling */
+#hoverImage {
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+}
+
+#hoverImage:hover {
+    transform: scale(1.1);
+}
+
+/* Gallery styling */
+#gallery img {
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* Tabs styling */
+.tabs {
+    margin-top: 20px;
+}
+
+.tab {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #ddd;
+}
+
+.tabContent {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e2e2e2;
+}
+
+.tabContent.active {
+    display: block;
+}
