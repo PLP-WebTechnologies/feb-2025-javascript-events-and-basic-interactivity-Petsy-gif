@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive JavaScript Playground</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>JavaScript Event Handling & Interactive Elements</h1>
+    </header>
+
+    <main>
+        <!-- Button that changes text/color -->
+        <button id="clickButton">Click Me!</button>
+
+        <!-- Hover effect on image -->
+        <img id="hoverImage" src="https://via.placeholder.com/150" alt="Hover me!" width="150">
+
+        <!-- Keypress detection -->
+        <input type="text" id="keypressInput" placeholder="Type something...">
+
+        <!-- Button for secret action (double click or long press) -->
+        <button id="secretButton">Double Click Me!</button>
+        
+        <!-- Image Gallery -->
+        <div id="gallery">
+            <img src="https://via.placeholder.com/150" alt="Image 1">
+            <img src="https://via.placeholder.com/150" alt="Image 2">
+            <img src="https://via.placeholder.com/150" alt="Image 3">
+        </div>
+
+        <!-- Tabs -->
+        <div class="tabs">
+            <button class="tab" onclick="switchTab('tab1')">Tab 1</button>
+            <button class="tab" onclick="switchTab('tab2')">Tab 2</button>
+            <button class="tab" onclick="switchTab('tab3')">Tab 3</button>
+        </div>
+        <div id="tab1" class="tabContent">Content for Tab 1</div>
+        <div id="tab2" class="tabContent">Content for Tab 2</div>
+        <div id="tab3" class="tabContent">Content for Tab 3</div>
+    </main>
+
+    <footer>
+        <p>Created with love and JavaScript!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
